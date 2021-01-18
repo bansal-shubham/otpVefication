@@ -1,0 +1,146 @@
+.otp-field {
+  width: 38px;
+  margin-right: 10px;
+  padding-left: 12px;
+  height: 40px;
+}
+.style {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  font-style: oblique;
+  color: aliceblue;
+  /* background: linear-gradient(to bottom, #0066ff 0%, #ff99cc 100%); */
+}
+/* .frm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  padding: 1rem;
+} */
+.inp {
+  padding: 0.5rem;
+  margin: 1rem;
+  width: 23%;
+}
+.btn {
+  color: white;
+  background-color: #419420;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 13%;
+}
+button:hover {
+  background-color: rgb(5, 87, 87);
+  transition: all 0.5s ease-in-out;
+}
+h4 {
+  color: red;
+}
+body {
+  /* margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+  background-color: rgb(5, 5, 5);
+  background-image: url(http://static.frontendmasters.com/resources/2019-05-02-complete-intro-react-v5/image-background.png);
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bt1 {
+  background-color: #f44336;
+  font-size: 16px;
+  padding: 8px 10px;
+  border-radius: 12px;
+  border: 0px solid #4caf50; /* Green */
+  cursor: pointer;
+}
+.bt2 {
+  background-color: #419420;
+  font-size: 16px;
+  padding: 8px 10px;
+  border-radius: 12px;
+  border: 0px solid #4caf50; /* Green */
+  cursor: pointer;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 45px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  --c: goldenrod;
+  color: var(--c);
+  font-size: 16px;
+  border: 0.3em solid var(--c);
+  border-radius: 0.5em;
+  width: 12em;
+  height: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  line-height: 3em;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: 0.5s;
+  margin: 1em;
+}
+
+nav ul li span {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  background-color: var(--c);
+  transform: translateY(150%);
+  border-radius: 50%;
+  left: calc((var(--n) - 1) * 25%);
+  transition: 0.5s;
+  transition-delay: calc((var(--n) - 1) * 0.1s);
+  z-index: -1;
+}
+
+nav ul li:hover {
+  color: black;
+}
+
+nav ul li:hover span {
+  transform: translateY(0) scale(2);
+}
+
+nav ul li span:nth-child(1) {
+  --n: 1;
+}
+
+nav ul li span:nth-child(2) {
+  --n: 2;
+}
+
+nav ul li span:nth-child(3) {
+  --n: 3;
+}
+
+nav ul li span:nth-child(4) {
+  --n: 4;
+}
